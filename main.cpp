@@ -5,9 +5,8 @@ int main(int argc, char *argv[ ])
 {
 QApplication app(argc, argv);
 
-QPushButton button("Hello, World!");
-button.resize(200, 60);
-button.show( );
+QLabel label("<h2><i>Hello,</i> " "<font color = red > Qt! </font></h2>");
+label.show( );
 
 return app.exec( );
      }
